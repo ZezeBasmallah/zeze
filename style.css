@@ -1,0 +1,298 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #DADDB1;
+}
+
+@font-face {
+    font-family: "Fira Sans";
+    src: url('assets/font/firasans-bold-webfont.woff') format(woff),
+        url('assets/font/firasans-bold-webfont.woff2') format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url('assets/font/sourcesanspro-bold-webfont.woff') format(woff),
+        url('assets/font/sourcesanspro-bold-webfont.woff2') format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    border-bottom: 5px black solid;
+    font-family: Fira Sans;
+
+}
+
+.header svg {
+    margin: 10px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.header ul li a:hover {
+    text-shadow: 0px 2px 1px #999;
+    transition: .1s;
+    cursor: pointer;
+}
+
+.container {
+    height: 700px;
+    border-bottom: 5px solid black;
+}
+
+.container svg {
+    margin-top: 130px;
+    margin-left: 500px;
+}
+
+.topik {
+    width: 330px;
+    height: 310px;
+    margin-top: 190px;
+    margin-left: 200px;
+    font-family: Fira Sans, arial;
+    float: left;
+    /* background-color: white; */
+}
+
+.h1 {
+    width: 280px;
+    height: 150px;
+    font-size: 35px;
+    /* background-color: aliceblue; */
+    margin-top: 20px;
+}
+
+.p {
+    width: 330px;
+    /* background-color: red; */
+}
+
+.h3 {
+    width: 190px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.menu {
+    position: relative;
+}
+
+.name {
+    font-family: Fira Sans;
+    width: 200px;
+    position: absolute;
+    top: -50px;
+    left: 180px;
+}
+
+.inti {
+    width: 100%;
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.content {
+    width: 400px;
+    height: 400px;
+    background-color: #B3A492;
+    border: 2px black solid;
+    font-family: Fira Sans;
+    border-top-left-radius: 10px;
+    box-shadow: 2px 2px 1px 0px black;
+
+}
+
+.content p {
+    /* border: 2px solid black; */
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.content img {
+    width: 400px;
+    height: 200px;
+    /* border: black 2px solid; */
+    box-sizing: border-box;
+    filter: saturate(10%);
+}
+
+.content img:hover {
+    transform: scale(1.5);
+    filter: saturate(100%);
+    transition: .1s;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.pepe {
+    padding: 15px;
+    /* border: 2px black solid; */
+    height: 130px;
+    margin-top: -5px;
+}
+
+.pepe h6 {
+    margin-top: 5px;
+}
+
+.pepe button {
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    background-color: #B3A492;
+    cursor: pointer;
+}
+
+.pepe button:hover {
+    box-shadow: 1px 1px 1px 1px black;
+    transition: .1s;
+}
+
+.pepe button a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Fira Sans;
+    color: black;
+}
+
+.content2 {
+    width: 400px;
+    height: 400px;
+    background-color: #B3A492;
+    font-family: Fira Sans;
+    border: 2px black solid;
+    border-top-left-radius: 10px;
+    box-shadow: 2px 2px 1px 0px black;
+}
+
+.content2 p {
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.content2 img {
+    width: 400px;
+    height: 200px;
+    filter: saturate(10%);
+    box-sizing: border-box;
+}
+
+.content2 img:hover {
+    transform: scale(1.5);
+    transition: .1s;
+    filter: saturate(100%);
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+
+.papa {
+    padding: 15px;
+}
+
+.papa h6 {
+    margin-top: 5px;
+}
+
+.papa button {
+    width: 100px;
+    height: 40px;
+    background-color: #B3A492;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.papa button:hover {
+    box-shadow: 1px 1px 1px 1px black;
+    transition: .1s;
+}
+
+.papa button a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Fira Sans;
+    color: black;
+}
+
+
+.content3 {
+    width: 400px;
+    height: 400px;
+    background-color: #B3A492;
+    font-family: Fira Sans;
+    border: 2px black solid;
+    border-top-left-radius: 10px;
+    box-shadow: 2px 2px 1px 0px black;
+}
+
+.content3 p {
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.content3 img {
+    width: 400px;
+    height: 200px;
+    filter: saturate(10%);
+    box-sizing: border-box;
+}
+
+.content3 img:hover {
+    transform: scale(1.5);
+    transition: .1s;
+    filter: saturate(100%);
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.pupu {
+    padding: 15px;
+}
+
+.pupu h6 {
+    margin-top: 5px;
+}
+
+.pupu button {
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #B3A492;
+    cursor: pointer;
+}
+
+.pupu button:hover {
+    box-shadow: 1px 1px 1px 1px black;
+    transition: .1s;
+}
+
+.pupu button a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Fira Sans;
+    color: black;
+}
